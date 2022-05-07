@@ -69,7 +69,7 @@ def main(_):
         # Eager mode is great for debugging
         # Non eager graph mode is recommended for real training
         summary_writer = tf.summary.create_file_writer(
-            './logs/' + cfg['sub_name'])
+            '/kaggle/working/logs/' + cfg['sub_name'])
 
         train_dataset = iter(train_dataset)
 
