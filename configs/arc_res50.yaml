@@ -10,7 +10,7 @@ is_ccrop: False # central-cropping or not
 
 # train
 #train_dataset: '/kaggle/input/lfw-dataset/'
-train_dataset: '/output_dataset'
+train_dataset: '/kaggle/working/output_dataset'
 binary_img: True
 #num_classes: 85742
 num_classes: 54
