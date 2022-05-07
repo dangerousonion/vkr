@@ -7,9 +7,9 @@ import random
 import tensorflow as tf
 
 
-flags.DEFINE_string('dataset_path', '../Dataset/ms1m_align_112/imgs',
+flags.DEFINE_string('dataset_path', '/kaggle/input/lfw-dataset/',
                     'path to dataset')
-flags.DEFINE_string('output_path', './data/ms1m_bin.tfrecord',
+flags.DEFINE_string('output_path', '/kaggle/working/data/ms1m_bin.tfrecord',
                     'path to ouput tfrecord')
 
 
