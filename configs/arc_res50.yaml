@@ -9,7 +9,7 @@ head_type: ArcHead # 'ArcHead', 'NormHead'
 is_ccrop: False # central-cropping or not
 
 # train
-train_dataset: '/kaggle/input/lfwpeople'
+train_dataset: '/kaggle/input/lfw-dataset/'
 #train_dataset: '/output_dataset'
 binary_img: True
 #num_classes: 85742
