@@ -7,7 +7,7 @@ import random
 import tensorflow as tf
 
 
-flags.DEFINE_string('dataset_path', '/kaggle/input/lfw-aligned-masked/lfw_aligned_masked/',
+flags.DEFINE_string('dataset_path', '/kaggle/input/natural/dest_root',
                     'path to dataset')
 flags.DEFINE_string('output_path', '/kaggle/working/data/ms1m_bin.tfrecord',
                     'path to ouput tfrecord')
