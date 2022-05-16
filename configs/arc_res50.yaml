@@ -9,9 +9,10 @@ head_type: ArcHead # 'ArcHead', 'NormHead'
 is_ccrop: False # central-cropping or not
 
 # train
-#train_dataset: '/kaggle/input/lfw-dataset/'
+#train_dataset: '../input/lfw-tfrec/ms1m_bin.tfrecord'
+train_dataset: '../input/natural-tfrec/natural.tfrecord'
 #train_dataset: '/content/drive/MyDrive/face_rec/data/ms1m_bin.tfrecord'
-train_dataset: '/content/drive/MyDrive/face_rec/natural.tfrecord'
+#train_dataset: '/content/drive/MyDrive/face_rec/natural.tfrecord'
 binary_img: True
 #num_classes: 85742
 #num_classes: 5750
