@@ -10,22 +10,21 @@ is_ccrop: False # central-cropping or not
 
 # train
 #train_dataset: '../input/lfw-tfrec/ms1m_bin.tfrecord'
-train_dataset: '/kaggle/input/natural-tfrec/natural.tfrecord'
+train_dataset: '/kaggle/input/lfw-tfrec/ms1m_bin.tfrecord'
 #train_dataset: '/content/drive/MyDrive/face_rec/data/ms1m_bin.tfrecord'
 #train_dataset: '/content/drive/MyDrive/face_rec/natural.tfrecord'
 binary_img: True
 #num_classes: 85742
-#num_classes: 5750
-num_classes: 54
+num_classes: 5750
+#num_classes: 54
 #num_samples: 5822653
-#num_samples: 25500
-num_samples: 264
-epochs: 16
-base_lr: 0.001
+num_samples: 25500
+#num_samples: 264
+epochs: 24
+base_lr: 0.005
 w_decay: !!float 5e-4
 #save_steps: 1000
-save_steps: 8
-
+save_steps: 16
 # test
 #test_dataset: '/your/path/to/test_dataset'
 test_dataset: '/content/drive/MyDrive/face_rec/natural.tfrecord'
