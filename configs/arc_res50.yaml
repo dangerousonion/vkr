@@ -20,7 +20,7 @@ num_classes: 5750
 #num_samples: 5822653
 num_samples: 25500
 #num_samples: 264
-epochs: 24
+epochs: 25
 base_lr: 0.005
 w_decay: !!float 5e-4
 #save_steps: 1000
