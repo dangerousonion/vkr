@@ -115,7 +115,7 @@ def main(_):
 
         mc_callback = ModelCheckpoint(
 #            'checkpoints/' + cfg['sub_name'] + '/e_{epoch}_b_{batch}.ckpt',
-            'checkpoints/training/e_{epoch}_b_0.ckpt',
+            '/kaggle/working/checkpoints/training/e_{epoch}_b_0.ckpt',
             save_freq=797, verbose=1,
             save_weights_only=True)
         tb_callback = TensorBoard(log_dir='logs/',
