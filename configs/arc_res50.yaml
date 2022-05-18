@@ -1,6 +1,6 @@
 # general
 #batch_size: 128
-batch_size: 128
+batch_size: 256
 input_size: 112
 embd_shape: 512
 sub_name: 'arc_res50'
@@ -20,7 +20,7 @@ num_classes: 5750
 #num_samples: 5822653
 num_samples: 25500
 #num_samples: 264
-epochs: 25
+epochs: 50
 base_lr: 0.005
 w_decay: !!float 5e-4
 #save_steps: 1000
