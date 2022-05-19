@@ -10,17 +10,19 @@ is_ccrop: False # central-cropping or not
 
 # train
 #train_dataset: '../input/lfw-tfrec/ms1m_bin.tfrecord'
-train_dataset: '/kaggle/input/casia-webmaskedface/CASIA-WebMaskedFace'
+train_dataset: '/kaggle/working/data/casia.tfrecord'
 #train_dataset: '/content/drive/MyDrive/face_rec/data/ms1m_bin.tfrecord'
 #train_dataset: '/content/drive/MyDrive/face_rec/natural.tfrecord'
 binary_img: False
 #num_classes: 85742
-num_classes: 5750
+#num_classes: 5750
+num_classes: 10575
 #num_classes: 54
 #num_samples: 5822653
-num_samples: 25500
+#num_samples: 25500
+num_samples: 494414 
 #num_samples: 264
-epochs: 50
+epochs: 8
 base_lr: 0.005
 w_decay: !!float 5e-4
 #save_steps: 1000

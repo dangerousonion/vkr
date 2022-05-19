@@ -51,8 +51,8 @@ def main(_):
         train_dataset = dataset.load_fake_dataset(cfg['input_size'])
 
     learning_rate = tf.constant(cfg['base_lr'])
-    #optimizer = tf.keras.optimizers.SGD(
-    #    learning_rate=learning_rate, momentum=0.9, nesterov=True)
+    optimizer = tf.keras.optimizers.SGD(
+        learning_rate=learning_rate, momentum=0.9, nesterov=True)
     optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=0.9, beta_2=0.999, epsilon=1e-07, amsgrad=False, name='Adam')
     loss_fn = SoftmaxLoss()
 
