@@ -13,7 +13,7 @@ is_ccrop: False # central-cropping or not
 train_dataset: '/kaggle/input/lfw-tfrec/ms1m_bin.tfrecord'
 #train_dataset: '/content/drive/MyDrive/face_rec/data/ms1m_bin.tfrecord'
 #train_dataset: '/content/drive/MyDrive/face_rec/natural.tfrecord'
-binary_img: True
+binary_img: False
 #num_classes: 85742
 num_classes: 5750
 #num_classes: 54
