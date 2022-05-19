@@ -9,7 +9,7 @@ import tensorflow as tf
 
 flags.DEFINE_string('dataset_path', '/kaggle/input/casia-webmaskedface/CASIA-WebMaskedFace',
                     'path to dataset')
-flags.DEFINE_string('output_path', '/kaggle/working/data/',
+flags.DEFINE_string('output_path', '/kaggle/working/data/casia.tfrecord',
                     'path to ouput tfrecord')
 
 
